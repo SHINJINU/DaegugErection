@@ -38,11 +38,9 @@
 .main_visual .main_visual_slide .itm01 {
   background-image: url(../images/main_visual01.jpg);
 }
-
 .main_visual .main_visual_slide .itm02 {
   background-image: url(../images/main_visual02.jpg);
 }
-
 .main_visual .main_visual_slide .itm03 {
   background-image: url(../images/main_visual03.jpg);
 }
@@ -92,15 +90,14 @@
   font-size: 0;
   width: 40px;
   height: 40px;
-  border-top: 1px solid#fff;
-  border-left: 1px solid#fff;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
 }
 
 .main_visual .arrows .prev {
   left: 0;
   transform: translate(0, -50%) rotate(-45deg);
 }
-
 .main_visual .arrows .next {
   right: 0;
   transform: translate(0, -50%) rotate(135deg);
@@ -199,17 +196,6 @@
   color: #fff;
 }
 
-.footer .customer li ~ li a::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: -20px;
-  width: 1px;
-  height: 0.5em;
-  background: #fff;
-  transform: translate(0, -50%);
-}
-
 .footer .customer a.b {
   font-weight: 700;
 }
@@ -218,6 +204,7 @@
   color: #fff;
   margin-bottom: 16px;
 }
+
 .footer address {
   color: #fff;
 }
